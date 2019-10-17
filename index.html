@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns:https="http://www.w3.org/1999/xhtml">
   <head>
 		<meta charset="utf-8">
 		<title>Барбершоп «Бородинский»</title>
+    <link href="<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
-    <header>
-      <nav>
-        <a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
           <img src="img/index-logo.svg" width="371" height="153" alt="Логотип барбершопа «Бородинский»">
         </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="news.html">Новости</a></li>
           <li><a href="price.html">Прайс-лист</a></li>
           <li><a href="catalog.html">Магазин</a></li>
           <li><a href="contacts.html">Контакты</a></li>
         </ul>
-        <ul>
+        <ul class="user-navigation">
           <li>
             <a href="login.html">Вход</a>
           </li>
         </ul>
       </nav>
     </header>
-  <main>
-    <h1>Барбершоп «Бородинский»</h1>
+  <main class="container">
+    <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
     <section>
       <h2>Преимущества</h2>
       <ul>
@@ -61,7 +64,7 @@
     <section>
       <h2>Фотогалерея</h2>
       <figure>
-        <a href="#"><img src="img/studio.jpg" width="328" height="160" alt="Интерьер"></a>
+        <a href="#"><img src="img/studio.jpg" width="328" height="162" alt="Интерьер"></a>
       </figure>
       <button type="button">Назад</button>
       <button type="button">Вперед</button>
